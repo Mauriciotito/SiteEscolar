@@ -1,0 +1,50 @@
+/*HEADER*/
+
+header {
+    background-color: royalblue;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 41.2%;
+}
+
+.imagem {
+    width: 30%;
+}
+
+.texto {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 8.5%;
+    padding-left: 35%;
+}
+
+/*MAIN*/
+
+.bloco {
+    background-color: cornflowerblue;
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.lista {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    padding-bottom: 139%;
+}
+
+.lista2 {
+    padding-top: 30%;
+    font-size: 15px;
+}
+
+.lista2:hover {
+    cursor: pointer;
+    transform: translate(7.5px);
+}

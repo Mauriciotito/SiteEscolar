@@ -1,0 +1,329 @@
+/* HEADER */
+
+.fundo {
+    background-color: royalblue;
+    padding-top: 0.5%;
+    border-bottom: rgb(54, 54, 223) solid 2px;
+    padding-bottom: 4.2%;
+}
+
+.logo {
+    width: 7.5%;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+.inicio {
+    margin-left: 70%;
+    margin-top: 3.8%;
+}
+
+header li {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+}
+
+.text {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+    color: black;
+    margin-right: 2%;
+}
+
+.text:hover {
+    color: white;
+}
+
+/*MAIN*/
+
+.borda {
+    border: 0px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 28px;
+    background-color: darkgray;
+}
+
+.fonte {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.textprof {
+    font-size: 32px;
+    padding-bottom: 3%;
+}
+
+.textprof2 {
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.login {
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+
+.caixa1 {
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+}
+
+.senha {
+    font-size: 20px;
+}
+
+.caixa2 {
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    margin-right: 0.6%;
+}
+
+.entrar {
+    margin-top: 4%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 1.5%;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.entrar:hover {
+    background-color: rgb(218, 211, 211);
+    transition: .5ms;
+    cursor: pointer;
+}
+
+/*HEADER*/
+
+@media only screen and (min-width: 1050px) and (max-width: 1224px){
+    .inicio {
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (min-width: 807px) and (max-width: 1049px){
+    .inicio {
+        margin-left: 54%;
+    }
+}
+
+@media only screen and (min-width: 748px) and (max-width: 806px){
+    .inicio {
+        margin-left: 50%;
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 514px) and (max-width: 747px){
+    .inicio {
+        margin-left: 40%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 441px) and (max-width: 513px){
+    .inicio {
+        margin-left: 30%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 440px){
+    .inicio {
+        margin-left: 22%;
+    }
+
+    .text {
+        font-size: 15px;
+
+    }
+
+    .logo {
+        width: 11%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 399px){
+    .inicio {
+        margin-left: 25%;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 11.5%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .inicio {
+        margin-left: 22%;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 11.5%;
+    }
+}
+
+/*MAIN*/
+
+@media only screen and (min-width: 801px) and (max-width: 1250px){
+    .borda {
+        margin-right: 13%;
+        margin-left: 13%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 800px){
+    .borda {
+        margin-right: 13%;
+        margin-left: 13%;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 441px) and (max-width: 641px){
+    .borda {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 30%;
+    }
+
+    .login {
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 440px){
+    .borda {
+        margin: 0;
+        border-radius: 0;
+        background-color: white;
+    }
+
+    .textprof {
+        margin-top: 12%;
+        font-size: 37px;
+    }
+
+    .textprof2 {
+        margin-top: 8%;
+        font-size: 24px;
+    }
+
+    .login {
+        font-size: 20px;
+    }
+
+    .caixa1 {
+        font-size: 18px;
+        margin-top: 15%;
+        margin-left: 1%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .senha {
+        font-size: 20px;
+    }
+
+    .caixa2 {
+        font-size: 18px;
+        margin-top: 5%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .entrar {
+        margin-top: 15%;
+        font-size: 25px;
+        padding: 2.5%;
+        padding-left: 6%;
+        padding-right: 6%;
+        background: rgb(187, 187, 187);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .borda {
+        margin: 0;
+        border-radius: 0;
+        background-color: white;
+    }
+
+    .textprof {
+        margin-top: 12%;
+        font-size: 32px;
+    }
+
+    .textprof2 {
+        margin-top: 8%;
+        font-size: 24px;
+    }
+
+    .login {
+        font-size: 21px;
+    }
+
+    .caixa1 {
+        margin-top: 15%;
+        margin-left: 1%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .senha {
+        font-size: 21px;
+    }
+
+    .caixa2 {
+        margin-top: 5%;
+        padding: 3%;
+        border: black solid 2px;
+    }
+
+    .entrar {
+        margin-top: 15%;
+        font-size: 25px;
+        padding: 2.5%;
+        padding-left: 6%;
+        padding-right: 6%;
+        background: rgb(187, 187, 187);
+    }
+}
