@@ -81,6 +81,11 @@
     justify-content: space-around;
 }
 
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
 .login-portal-escolar{
     text-align: center;
 }
@@ -136,13 +141,14 @@
 
 .ajuste {
     margin: 1%;
+    padding: 1%;
     text-align: center;
     border-radius: 20px;
-    width: 15%;
+    width: 20%;
 }
 
 .ajuste:hover {
-    background: rgba(119, 119, 119, 0.158);
+    background: rgba(119, 119, 119, 0.295);
     transition: 0.3s;
     transform: scale(1.1);
 }
@@ -159,7 +165,7 @@
 }
 
 .tamanho-imagem:hover {
-    transform: translate(0px, -15%);
+    transform: translate(0px, -20%);
     transition: 0.3s;
 }
 
@@ -168,6 +174,49 @@
     font-size: 17px;
     font-family: 'Work Sans', sans-serif;
 }
+
+/*ACESSO RÁPIDO*/
+
+.borda-titulo-acesso{
+    border-bottom: 1px solid gray ;
+    margin: 0 4%;
+}
+
+.titulo-acesso{
+    font-size: 30px;
+    color: royalblue;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 2%;
+}
+
+.acesso-rapido{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 0;
+}
+
+.acessos{
+    width: 560px;
+}
+
+
+.list-none{
+    list-style: none;
+}
+
+.conteudo{
+    background: rgba(87, 129, 255, 0.527);
+    margin-bottom: 2%;
+    padding: 0.5% 1%;
+}
+
+.text-none{
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+}
+
 
 /*FOOTER*/
 
@@ -189,6 +238,7 @@ footer img {
 #copy {
     padding-top: 0;
     padding-bottom: 1.5%;
+    font-style: italic;
 }
 
 /*HEADER*/
@@ -226,18 +276,7 @@ footer img {
 @media only screen and (min-width: 500px) and (max-width: 599px) {}
 
 @media only screen and (min-width: 400px) and (max-width: 499px) {
-    footer img {
-        width: 10%;
-    }
-
-    .copy {
-        padding-top: 2.2%;
-        padding-bottom: 2.2%;
-    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 399px) {
-    footer img {
-        width: 10%;
-    }
 }
