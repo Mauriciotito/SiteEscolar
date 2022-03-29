@@ -1,80 +1,172 @@
 /* HEADER */
 
 .fundo {
-    background-color: royalblue;
-    padding-top: 0.5%;
-    border-bottom: rgb(54, 54, 223) solid 2px;
-    padding-bottom: 4.2%;
-}
-
-.logo {
-    width: 7.5%;
-    padding-top: 1%;
-    padding-left: 3%;
+    background: royalblue;
 }
 
 .inicio {
-    margin-left: 70%;
-    margin-top: 3.8%;
-}
-
-header li {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    display: inline;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .text {
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
-    color: inherit;
-    font-weight: bolder;
-    padding-right: 2%;
     color: black;
+    text-align: center;
+    font-size: 18px;
 }
 
-.text:hover {
-    color: white;
+
+#nav-inicio {
+    width: 100%;
+    padding: 1.1%;
+    background: rgb(255, 70, 70);
+}
+
+#nav-inicio:hover {
+    background: rgba(255, 70, 70, 0.842);
+}
+
+#nav-aluno {
+    width: 100%;
+    padding: 1.1%;
+    background: rgb(0, 207, 62);
+}
+
+#nav-aluno:hover {
+    background: rgba(0, 173, 52, 0.836);
+}
+
+#nav-professor {
+    width: 100%;
+    padding: 1.1%;
+    background: rgb(255, 255, 0);
+}
+
+#nav-professor:hover {
+    background: rgba(255, 255, 0, 0.836);
+}
+
+#nav-secretaria {
+    width: 100%;
+    padding: 1.1%;
+    background: rgb(0, 183, 255);
+}
+
+#nav-secretaria:hover {
+    background: rgba(0, 132, 255, 0.76);
 }
 
 /* MAIN */
 
+
 .titulo {
-    color: royalblue;
-    font-weight: bold;
+    color: black;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 75px;
+    font-size: 60px;
+    margin: 4% 0;
 }
 
-.intro {
+.portal-escolar {
+    background: rgba(255, 255, 0, 0.178);
+    margin: 0 5% 4%;
+    padding: 2%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-portal-escolar{
+    text-align: center;
+}
+
+.titulo-portal{
     font-family: 'Work Sans', sans-serif;
-    top: 800px;
-    left: 100px;
-    right: 100px;
+    font-size: 45px;
+    margin-bottom: 10%;
 }
 
-.intro p {
-    padding-bottom: 10px;
-    font-size: 20px;
+.login-espaço{
+    margin-bottom: 10%;
 }
 
-.intro h2 {
-    font-size: 30px;
-    padding-bottom: 20px;
+.login-senha-titulo{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 2%;
+    font-weight: bolder;
+}
+
+.login{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.senha{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Section topicos*/
+
+.espaço-topicos{
+    margin: 5% 0;
 }
 
 .topico1 {
-    padding: 30px;
-    border-bottom: rgb(54, 54, 223) solid 2px;
-    border-top: rgb(54, 54, 223) solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .topico2 {
-    padding: 30px;
-    border-bottom: rgb(54, 54, 223) solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ajuste {
+    margin: 1%;
+    text-align: center;
+    border-radius: 20px;
+    width: 15%;
+}
+
+.ajuste:hover {
+    background: rgba(119, 119, 119, 0.158);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.topico {
+    text-decoration: none;
+    color: black;
+}
+
+.tamanho-imagem {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.tamanho-imagem:hover {
+    transform: translate(0px, -15%);
+    transition: 0.3s;
+}
+
+.texto-topico {
+    margin: 5% 0 0;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /*FOOTER*/
@@ -101,142 +193,39 @@ footer img {
 
 /*HEADER*/
 
-@media only screen and (min-width: 1050px) and (max-width: 1224px){
-    .inicio {
-        margin-left: 65%;
-    }
-}
+@media only screen and (min-width: 1050px) and (max-width: 1224px) {}
 
-@media only screen and (min-width: 807px) and (max-width: 1049px){
-    .inicio {
-        margin-left: 54%;
-    }
-}
+@media only screen and (min-width: 807px) and (max-width: 1049px) {}
 
-@media only screen and (min-width: 748px) and (max-width: 806px){
-    .inicio {
-        margin-left: 50%;
-    }
+@media only screen and (min-width: 748px) and (max-width: 806px) {}
 
-    .logo {
-        width: 9%;
-    }
-}
+@media only screen and (min-width: 514px) and (max-width: 747px) {}
 
-@media only screen and (min-width: 514px) and (max-width: 747px){
-    .inicio {
-        margin-left: 39%;
-    }
+@media only screen and (min-width: 441px) and (max-width: 513px) {}
 
-    .text {
-        font-size: 15px;
+@media only screen and (min-width: 400px) and (max-width: 440px) {}
 
-    }
+@media only screen and (min-width: 360px) and (max-width: 399px) {}
 
-    .logo {
-        width: 9%;
-    }
-}
-
-@media only screen and (min-width: 441px) and (max-width: 513px){
-    .inicio {
-        margin-left: 29%;
-    }
-
-    .text {
-        font-size: 15px;
-
-    }
-
-    .logo {
-        width: 11%;
-    }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 440px){
-    .inicio {
-        margin-left: 22%;
-    }
-
-    .text {
-        font-size: 15px;
-
-    }
-
-    .logo {
-        width: 11%;
-    }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 399px){
-    .inicio {
-        margin-left: 23%;
-    }
-
-    .text {
-        font-size: 13px;
-    }
-
-    .logo {
-        width: 11.5%;
-    }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 359px){
-    .inicio {
-        margin-left: 21%;
-    }
-
-    .text {
-        font-size: 12px;
-    }
-
-    .logo {
-        width: 11.5%;
-    }
-}
+@media only screen and (min-width: 320px) and (max-width: 359px) {}
 
 /*MAIN*/
 
-@media only screen and (min-width: 724px) and (max-width: 791px){
-    .titulo {
-        font-size: 60px;
-    }
-}
+@media only screen and (min-width: 724px) and (max-width: 791px) {}
 
-@media only screen and (min-width: 320px) and (max-width: 460px){
-    .titulo {
-        font-size: 50px;
-    }
-}
+@media only screen and (min-width: 320px) and (max-width: 460px) {}
 
 /*FOOTER*/
 
-@media only screen and (min-width: 1000px) and (max-width: 1300px){
-    footer img {
-        width: 6%;
-    }
-}
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {}
 
-@media only screen and (min-width: 800px) and (max-width: 999px){
-    footer img {
-        width: 6%;
-    }
-}
+@media only screen and (min-width: 800px) and (max-width: 999px) {}
 
-@media only screen and (min-width: 600px) and (max-width: 799px){
-    footer img {
-        width: 8%;
-    }
-}
+@media only screen and (min-width: 600px) and (max-width: 799px) {}
 
-@media only screen and (min-width: 500px) and (max-width: 599px){
-    footer img {
-        width: 8%;
-    }
-}
+@media only screen and (min-width: 500px) and (max-width: 599px) {}
 
-@media only screen and (min-width: 400px) and (max-width: 499px){
+@media only screen and (min-width: 400px) and (max-width: 499px) {
     footer img {
         width: 10%;
     }
@@ -247,7 +236,7 @@ footer img {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 399px){
+@media only screen and (min-width: 320px) and (max-width: 399px) {
     footer img {
         width: 10%;
     }
